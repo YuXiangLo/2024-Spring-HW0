@@ -1,0 +1,55 @@
+  forge script script/Counter.s.sol:CounterScript --rpc-url $SEPOLIA_RPC --broadcast -vvv
+[⠢] Compiling...
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  0x2E7451Cdba25a5d9053268a9b3bdb45aE60976aE
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 71.795586561 gwei
+
+Estimated total gas used for script: 138719
+
+Estimated amount required: 0.009959411972155359 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 0].
+⠁ [00:00:00] [################################################################################################################] 1/1 txes (0.0s)
+Transactions saved to: /Users/yuxiang/Documents/fin-hw0/hw0/broadcast/Counter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /Users/yuxiang/Documents/fin-hw0/hw0/cache/Counter.s.sol/11155111/run-latest.json
+
+##
+Waiting for receipts.
+⠉ [00:00:15] [############################################################################################################] 1/1 receipts (0.0s)
+##### sepolia
+✅  [Success]Hash: 0xe496ddb0eebe032acdf015bff66627b561513289fcd1bcc7cc51d675797f483a
+Contract Address: 0x2E7451Cdba25a5d9053268a9b3bdb45aE60976aE
+Block: 5365950
+Paid: 0.00507349555056675 ETH (106725 gas * 47.53802343 gwei)
+
+
+Transactions saved to: /Users/yuxiang/Documents/fin-hw0/hw0/broadcast/Counter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /Users/yuxiang/Documents/fin-hw0/hw0/cache/Counter.s.sol/11155111/run-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.00507349555056675 ETH (106725 gas * avg 47.53802343 gwei)
+
+Transactions saved to: /Users/yuxiang/Documents/fin-hw0/hw0/broadcast/Counter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /Users/yuxiang/Documents/fin-hw0/hw0/cache/Counter.s.sol/11155111/run-latest.json
